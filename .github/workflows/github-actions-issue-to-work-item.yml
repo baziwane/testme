@@ -13,8 +13,8 @@ jobs:
         env:
           ado_token: "${{ secrets.ADO_PERSONAL_ACCESS_TOKEN }}"
           github_token: "${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}"
-          ado_organization: "raymond"
-          ado_project: "project-alpha"
+          ado_organization: "rbazi"
+          ado_project: "TestgithubIssueIntegration"
           ado_area_path: "optional_area_path\\optional_area_path"
           ado_wit: "Bug"
           ado_new_state: "New"
